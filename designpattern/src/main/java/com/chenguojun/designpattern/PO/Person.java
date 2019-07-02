@@ -1,5 +1,7 @@
 package com.chenguojun.designpattern.PO;
 
+import com.chenguojun.designpattern.comparator.PersonComparator;
+
 import java.util.Arrays;
 
 /**
@@ -9,7 +11,7 @@ import java.util.Arrays;
  * @Description: TODO
  * @date 2019/7/223:15
  */
-public class Person implements Comparable<Person> {
+public class Person {
     private String name;
     private int age;
 
@@ -34,10 +36,10 @@ public class Person implements Comparable<Person> {
         this.age = age;
     }
 
-    @Override
-    public int compareTo(Person o) {
-        return this.getAge() - o.getAge();
-    }
+//    @Override
+//    public int compareTo(Person o) {
+//        return this.getAge() - o.getAge();
+//    }
 
     public static void main(String[] args) {
         Person[] people = new Person[]{new Person("zhangsan", 30), new Person("lisi", 25)};
@@ -45,8 +47,8 @@ public class Person implements Comparable<Person> {
         for (Person person : people) {
             System.out.println(person.getName() + ":" + person.getAge());
         }
-        Arrays.sort(people);
-
+//        Arrays.sort(people);
+        Arrays.sort(people, new PersonComparator());
         System.out.println("排序后：");
         for (Person person : people) {
             System.out.println(person.getName() + ":" + person.getAge());
