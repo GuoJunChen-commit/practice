@@ -15,6 +15,14 @@ public class Person {
     private String name;
     private int age;
 
+    public Person() {
+    }
+
+    private String reflectMethod(String name) {
+        System.out.println("name: " + name);
+        return name;
+    }
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -35,11 +43,6 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
-
-//    @Override
-//    public int compareTo(Person o) {
-//        return this.getAge() - o.getAge();
-//    }
 
     public static void main(String[] args) {
         Person[] people = new Person[]{new Person("zhangsan", 30), new Person("lisi", 25)};
