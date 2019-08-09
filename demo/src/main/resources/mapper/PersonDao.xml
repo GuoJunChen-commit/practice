@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chenguojun.demo.mapper.PersonMapper">
+
+    <resultMap type="com.chenguojun.demo.pojo.po.PersonPO" id="PersonMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+    </resultMap>
+
+
+    <select id="getPerson" parameterType="string" resultType="com.chenguojun.demo.pojo.vo.PersonVO">
+        select * from person where id = #{id}
+    </select>
+
+
+</mapper>
