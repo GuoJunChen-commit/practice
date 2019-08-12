@@ -9,8 +9,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DemoApplicationTests {
 
+    int value = 20;
+
     @Test
     public void contextLoads() {
+        int value = 10;
+        System.out.println(this.value);
+
     }
 
 }

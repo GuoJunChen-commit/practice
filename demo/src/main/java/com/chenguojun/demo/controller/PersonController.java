@@ -1,5 +1,6 @@
 package com.chenguojun.demo.controller;
 
+import com.chenguojun.demo.configure.DataSource;
 import com.chenguojun.demo.pojo.po.PersonPO;
 import com.chenguojun.demo.service.PersonService;
 import org.slf4j.Logger;
@@ -25,15 +26,16 @@ public class PersonController {
     private PersonService personService;
 
     @RequestMapping("/getPerson")
+    @DataSource(value = "hahah")
     public PersonPO getPerson(String id) {
 //        PersonVO person = personService.getPerson(id);
-//        PersonVO personVO = personService.getPerson(id);
-        PersonPO personPO = new PersonPO();
-        personPO.setId(Integer.valueOf(id));
-        personPO.setName("lisi");
-
-        PersonPO personPO1 = personService.save(personPO);
-        return personPO1;
+        PersonPO personVO = personService.getPerson(id);
+//        PersonPO personPO = new PersonPO();
+//        personPO.setId(Integer.valueOf(id));
+//        personPO.setName("lisi");
+//
+//        PersonPO personPO1 = personService.save(personPO);
+        return personVO;
     }
 
 }
