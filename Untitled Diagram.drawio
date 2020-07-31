@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T09:25:38.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="A-cScQ1rhwAmCUkyk4NQ" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-31T10:35:49.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="UFoVox61ItJLtwfhvfEc" version="13.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="742" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,61 @@
         </mxCell>
         <mxCell id="TqVi8izwRz0PIjWKsdhe-35" value="&lt;font style=&quot;font-size: 9px&quot;&gt;sendmail_susbcribe_service&lt;br&gt;return email addresses&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="550" y="585" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TqVi8izwRz0PIjWKsdhe-40" target="TqVi8izwRz0PIjWKsdhe-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-40" value="&lt;font style=&quot;font-size: 8px&quot;&gt;扫描数据库巡检的配置，遍历&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TqVi8izwRz0PIjWKsdhe-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-41" value="&lt;font style=&quot;font-size: 8px&quot;&gt;得到每个配置对应的实例id&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="175" y="840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TqVi8izwRz0PIjWKsdhe-42" target="TqVi8izwRz0PIjWKsdhe-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-44" value="数据库巡检时间之后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TqVi8izwRz0PIjWKsdhe-43">
+          <mxGeometry x="-0.1673" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-42" value="&lt;font style=&quot;font-size: 8px&quot;&gt;保存数据库巡检配置时， 需要保存账号id，后期通过账号id获取到相应的所有实例&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="730" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-46" value="&lt;font style=&quot;font-size: 8px&quot;&gt;为了记录该条巡检配置作用的所有实例id&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="740" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TqVi8izwRz0PIjWKsdhe-47" target="TqVi8izwRz0PIjWKsdhe-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-47" value="&lt;span style=&quot;font-size: 8px&quot;&gt;通过所有的实例id去查看所有由数据库巡检产生的报告&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-50" value="&lt;span style=&quot;font-size: 8px&quot;&gt;组成一封邮件的多个实例， 发送给配置的联系人&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-52" value="&lt;font style=&quot;font-size: 8px&quot;&gt;不同的账号有不同的数据库巡检配置， 会扫描到多个&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="25" y="880" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-53" value="&lt;font style=&quot;font-size: 8px&quot;&gt;定期生成配置， 实例id + 订阅时间 + 联系人&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="930" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-54" value="&lt;font style=&quot;font-size: 8px&quot;&gt;之前的定期创建健康报告的任务，读取到定期生成的所有所有设置， 进行健康报告的创建；&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="930" width="276" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-55" value="&lt;span style=&quot;font-size: 8px&quot;&gt;数据库巡检的配置， 账户id + 联系人&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="690" width="235" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-57" value="&lt;font style=&quot;font-size: 8px&quot;&gt;在定期生成的任务结束之后，例如凌晨三点，扫描定期生成的所有配置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="990" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-58" value="&lt;font style=&quot;font-size: 8px&quot;&gt;拿到一条定期生成的配置后， 用实例id去查看定时任务产生的健康报告&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="1080" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
