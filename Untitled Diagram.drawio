@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-03T01:56:29.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="0NpounsTxUq8-uzHVlHM" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-03T01:58:48.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="UEgYnZJ1JwrDTkNGp8Ns" version="13.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="742" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,8 +285,8 @@
         <mxCell id="TqVi8izwRz0PIjWKsdhe-96" value="&lt;span style=&quot;font-size: 8px&quot;&gt;消费task&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="1910" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TqVi8izwRz0PIjWKsdhe-101" value="&lt;font style=&quot;font-size: 6px&quot;&gt;邮件发送服务技术点：&lt;br&gt;1. 需配置多个账号；&lt;br&gt;2. 不同账号采用加权的方式（每一个profile发送的邮件数量是不一样的，轮询不可取）；&lt;br&gt;3. 一封邮件上线数2000，发送邮件的api每天调用次数是有上限的，熔断机制；&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="2040" width="190" height="100" as="geometry" />
+        <mxCell id="TqVi8izwRz0PIjWKsdhe-101" value="&lt;font style=&quot;font-size: 6px&quot;&gt;邮件发送服务技术点：&lt;br&gt;1. 需配置多个账号；&lt;br&gt;2. 不同账号采用加权的方式；&lt;br&gt;3. 一封邮件上线数2000，发送邮件的api每天调用次数是有上限的，熔断；&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="2050" width="190" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
