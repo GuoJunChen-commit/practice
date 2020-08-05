@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T03:56:10.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="BiCbmEVhO4WjOf2MWHXd" version="13.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-05T06:20:04.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="lKHTY6zhVFfU_LX9WPYW" version="13.5.5" type="github" pages="2">
   <diagram id="KGFICc2LkcfAtPMZ3H7T" name="main-flow">
     <mxGraphModel dx="742" dy="-693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,7 +137,7 @@
           <mxGeometry x="10" y="1410" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bkeQamBSFkENWkfLjQHr-1" value="&lt;span style=&quot;font-size: 8px&quot;&gt;邮件推送列表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
-          <mxGeometry x="90" y="1980" width="130" height="40" as="geometry" />
+          <mxGeometry x="150" y="1980" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bkeQamBSFkENWkfLjQHr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="bkeQamBSFkENWkfLjQHr-4" target="bkeQamBSFkENWkfLjQHr-9">
           <mxGeometry relative="1" as="geometry">
