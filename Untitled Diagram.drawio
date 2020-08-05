@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T08:48:33.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="mhxpZ0ta9PCY6CnsKs_v" version="13.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-05T03:20:12.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="J0KzzCJOJV3mjT-CPc5f" version="13.5.5" type="github" pages="2">
   <diagram id="KGFICc2LkcfAtPMZ3H7T" name="main-flow">
     <mxGraphModel dx="742" dy="-693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,11 @@
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-14" target="cEQx_1zEHoHEwnlDs2Ul-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bkeQamBSFkENWkfLjQHr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-14" target="bkeQamBSFkENWkfLjQHr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-14" value="&lt;span style=&quot;font-size: 8px&quot;&gt;根据instanceid查询对应生成的report,组成一封邮件内容&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%26quot%3B%26gt%3B%E6%A0%B9%E6%8D%AE%E4%B8%80%E4%B8%AA%E5%B7%A1%E6%A3%80%E9%85%8D%E7%BD%AE%EF%BC%8C%E6%9F%A5%E8%AF%A2%E5%88%B0%E8%AF%A5%E9%85%8D%E7%BD%AE%E5%AF%B9%E5%BA%94%E7%9A%84%26lt%3B%2Fspan%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgba(0%20%2C%200%20%2C%200%20%2C%200)%20%3B%20font-family%3A%20monospace%20%3B%20font-size%3A%200px%26quot%3B%26gt%3B%253CmxGraphModel%253E%253Croot%253E%253CmxCell%2520id%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25221%2522%2520parent%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25222%2522%2520value%253D%2522%2526lt%253Bspan%2520style%253D%2526quot%253Bfont-size%253A%25208px%2526quot%253B%2526gt%253B%25E5%25BE%25AA%25E7%258E%25AF%25E9%2581%258D%25E5%258E%2586%25E6%2589%2580%25E6%259C%2589%25E7%259A%2584%25E9%2582%25AE%25E4%25BB%25B6%25E9%2585%258D%25E7%25BD%25AE%25EF%25BC%258C%2520%25E5%2588%25A4%25E6%2596%25AD%25E9%2585%258D%25E7%25BD%25AE%25E7%259A%2584%25E7%25B1%25BB%25E5%259E%258B%2526lt%253B%252Fspan%2526gt%253B%2522%2520style%253D%2522rounded%253D0%253BwhiteSpace%253Dwrap%253Bhtml%253D1%253BfillColor%253D%2523FFFFFF%253B%2522%2520vertex%253D%25221%2522%2520parent%253D%25221%2522%253E%253CmxGeometry%2520x%253D%252210%2522%2520y%253D%25221300%2522%2520width%253D%2522130%2522%2520height%253D%252240%2522%2520as%253D%2522geometry%2522%252F%253E%253C%252FmxCell%253E%253C%252Froot%253E%253C%252FmxGraphModel%253E%26lt%3B%2Fspan%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%E6%89%80%E6%9C%89instanceid%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23FFFFFF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22185%22%20y%3D%221440%22%20width%3D%22130%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
-          <mxGeometry x="185" y="1550" width="130" height="40" as="geometry" />
+          <mxGeometry x="185" y="1550" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-17" target="cEQx_1zEHoHEwnlDs2Ul-20">
           <mxGeometry relative="1" as="geometry" />
@@ -73,16 +76,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-22" value="&lt;span style=&quot;font-size: 8px&quot;&gt;查询到一个定时配置，得到对应的一个instanceid&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
-          <mxGeometry x="414" y="1300" width="130" height="40" as="geometry" />
+          <mxGeometry x="550" y="1300" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-24" target="cEQx_1zEHoHEwnlDs2Ul-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bkeQamBSFkENWkfLjQHr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.538;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-24" target="bkeQamBSFkENWkfLjQHr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-24" value="&lt;span style=&quot;font-size: 8px&quot;&gt;根据instanceid，查询到对应的一天定时生成的报告&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
-          <mxGeometry x="414" y="1440" width="130" height="40" as="geometry" />
+          <mxGeometry x="550" y="1440" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-27" target="cEQx_1zEHoHEwnlDs2Ul-20">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="1750" />
+              <mxPoint x="425" y="1750" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-26" value="创建任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FFFFFF;" vertex="1" connectable="0" parent="cEQx_1zEHoHEwnlDs2Ul-25">
           <mxGeometry x="-0.5628" y="2" relative="1" as="geometry">
@@ -90,13 +101,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-27" value="&lt;span style=&quot;font-size: 8px&quot;&gt;根据profile的收件人， 组装邮件内容以及收件人&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
-          <mxGeometry x="414" y="1550" width="130" height="40" as="geometry" />
+          <mxGeometry x="550" y="1550" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-30" target="cEQx_1zEHoHEwnlDs2Ul-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEQx_1zEHoHEwnlDs2Ul-29" value="call api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FFFFFF;" vertex="1" connectable="0" parent="cEQx_1zEHoHEwnlDs2Ul-28">
           <mxGeometry x="-0.1429" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bkeQamBSFkENWkfLjQHr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;" edge="1" parent="cEQx_1zEHoHEwnlDs2Ul-1" source="cEQx_1zEHoHEwnlDs2Ul-30" target="bkeQamBSFkENWkfLjQHr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkeQamBSFkENWkfLjQHr-3" value="&lt;font style=&quot;font-size: 6px&quot;&gt;得到发送成功的返回值&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bkeQamBSFkENWkfLjQHr-2">
+          <mxGeometry x="0.1648" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -111,6 +130,12 @@
         </mxCell>
         <mxCell id="bkeQamBSFkENWkfLjQHr-0" value="&lt;font style=&quot;font-size: 6px&quot;&gt;一个用户只会对应一个巡检配置， 扫描到这条巡检配置以后，查询到该用户对应的所有开启了巡检的实例&lt;br&gt;用来满足新增实例需要发送巡检产生的定时报告的需求&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
           <mxGeometry x="10" y="1410" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bkeQamBSFkENWkfLjQHr-1" value="&lt;span style=&quot;font-size: 8px&quot;&gt;邮件推送列表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
+          <mxGeometry x="100" y="1910" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bkeQamBSFkENWkfLjQHr-4" value="&lt;span style=&quot;font-size: 8px&quot;&gt;如果查询不到对应的reportid,则健康报告没有ready&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="cEQx_1zEHoHEwnlDs2Ul-1">
+          <mxGeometry x="370" y="1550" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
