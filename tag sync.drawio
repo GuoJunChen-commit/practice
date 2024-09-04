@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-09-04T06:51:51.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gwR06DqzRGOOzbW0fmUi" version="24.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-04T06:53:51.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="45nREo_Ag_4xoXaUDNgW" version="24.7.3" type="github">
   <diagram name="第 1 页" id="o16jT8s6Q-hIHPiViAWH">
-    <mxGraphModel dx="1952" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2070" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,8 +41,8 @@
         <mxCell id="NYipR0PiHKViFvUqOCkT-11" value="register all region" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-19">
           <mxGeometry x="130.5" y="98" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NYipR0PiHKViFvUqOCkT-16" value="all region" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-19">
-          <mxGeometry x="155.5" y="398" width="70" height="30" as="geometry" />
+        <mxCell id="NYipR0PiHKViFvUqOCkT-16" value="all region tag data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-19">
+          <mxGeometry x="130.5" y="398" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NYipR0PiHKViFvUqOCkT-17" value="ap-guangzhou" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-19">
           <mxGeometry y="230" width="104" height="30" as="geometry" />
@@ -50,7 +50,7 @@
         <mxCell id="NYipR0PiHKViFvUqOCkT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NYipR0PiHKViFvUqOCkT-19" source="NYipR0PiHKViFvUqOCkT-14" target="NYipR0PiHKViFvUqOCkT-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NYipR0PiHKViFvUqOCkT-26" value="tag 离线对账" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYipR0PiHKViFvUqOCkT-26" value="tag 离线对账服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NYipR0PiHKViFvUqOCkT-29" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -74,8 +74,8 @@
         <mxCell id="NYipR0PiHKViFvUqOCkT-32" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-31">
           <mxGeometry width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NYipR0PiHKViFvUqOCkT-33" value="ap-taipei" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-31">
-          <mxGeometry width="60" height="30" as="geometry" />
+        <mxCell id="NYipR0PiHKViFvUqOCkT-33" value="ap-singapore" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-31">
+          <mxGeometry width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NYipR0PiHKViFvUqOCkT-34" value="dbaas-router" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="NYipR0PiHKViFvUqOCkT-31">
           <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
@@ -114,6 +114,9 @@
           <mxGeometry x="-0.2135" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NYipR0PiHKViFvUqOCkT-47" value="广州地域地域对账所有实例标签数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="410" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
