@@ -288,7 +288,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--125" value="邮件发送" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="182.5" y="2140" width="120" height="80" as="geometry" />
+          <mxGeometry x="182.5" y="2130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--148" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="120" y="1810" width="250" height="160" as="geometry" />
