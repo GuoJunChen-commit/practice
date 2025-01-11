@@ -264,7 +264,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--112" value="ScanRoutine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="1760" width="130" height="50" as="geometry" />
+          <mxGeometry x="-115" y="1780" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--113" value="Excutor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="1870" width="130" height="50" as="geometry" />
@@ -277,6 +277,9 @@
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--116" value="Excutor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="2060" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--117" value="邮件服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="1960" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
