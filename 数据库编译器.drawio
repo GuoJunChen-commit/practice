@@ -367,7 +367,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--278" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-290" y="980" width="960" height="560" as="geometry" />
+          <mxGeometry x="-290" y="980" width="1002.5" height="575" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--287" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
+          <mxGeometry x="370" y="355" width="620" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--279" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
+          <mxGeometry x="372.5" y="-20" width="620" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Hqzb3K3AwqjuaXWLKlO--278" source="Hqzb3K3AwqjuaXWLKlO--57" target="Hqzb3K3AwqjuaXWLKlO--66">
           <mxGeometry relative="1" as="geometry" />
@@ -447,11 +453,6 @@
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Hqzb3K3AwqjuaXWLKlO--278" source="Hqzb3K3AwqjuaXWLKlO--66" target="Hqzb3K3AwqjuaXWLKlO--64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Hqzb3K3AwqjuaXWLKlO--261" value="基于指标实时触发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Hqzb3K3AwqjuaXWLKlO--260">
-          <mxGeometry x="0.0318" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--262" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Hqzb3K3AwqjuaXWLKlO--278" target="Hqzb3K3AwqjuaXWLKlO--54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="240" as="sourcePoint" />
@@ -477,7 +478,7 @@
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--264" value="dbaas-druid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
           <mxGeometry x="417" y="429" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hqzb3K3AwqjuaXWLKlO--265" value="执行性能波动,怀疑发生变化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Hqzb3K3AwqjuaXWLKlO--278" source="Hqzb3K3AwqjuaXWLKlO--66" target="Hqzb3K3AwqjuaXWLKlO--264">
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--265" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Hqzb3K3AwqjuaXWLKlO--278" source="Hqzb3K3AwqjuaXWLKlO--66" target="Hqzb3K3AwqjuaXWLKlO--264">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Hqzb3K3AwqjuaXWLKlO--278" source="Hqzb3K3AwqjuaXWLKlO--267">
@@ -505,6 +506,12 @@
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--276" value="输出诊断项" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--270">
           <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--289" value="基于指标实时发现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
+          <mxGeometry x="383" y="-10" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--290" value="执行性能波动" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
+          <mxGeometry x="365.5" y="510" width="152" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
