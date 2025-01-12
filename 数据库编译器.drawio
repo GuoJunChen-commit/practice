@@ -156,9 +156,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--61" value="diag组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1000" width="105" height="30" as="geometry" />
+          <mxGeometry x="590" y="1000" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hqzb3K3AwqjuaXWLKlO--62" value="扫描行数告警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--62" value="指标告警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="747.5" y="950" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--63" value="长事务告警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -168,13 +168,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--64" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="1000" width="105" height="30" as="geometry" />
+          <mxGeometry x="452.5" y="1000" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--72" value="慢日志告警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="747.5" y="1030" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--74" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="220" y="930" width="140" height="170" as="geometry" />
+          <mxGeometry x="257.5" y="930" width="140" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--74">
           <mxGeometry width="140" height="170" as="geometry" />
