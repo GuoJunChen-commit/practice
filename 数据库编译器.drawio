@@ -507,11 +507,11 @@
         <mxCell id="Hqzb3K3AwqjuaXWLKlO--276" value="输出诊断项" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--270">
           <mxGeometry width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hqzb3K3AwqjuaXWLKlO--289" value="基于指标实时发现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
-          <mxGeometry x="383" y="-10" width="117" height="30" as="geometry" />
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--290" value="通过规则预处理过滤性能波动 SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
+          <mxGeometry x="365.5" y="510" width="204.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hqzb3K3AwqjuaXWLKlO--290" value="执行性能波动" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hqzb3K3AwqjuaXWLKlO--278">
-          <mxGeometry x="365.5" y="510" width="152" height="30" as="geometry" />
+        <mxCell id="Hqzb3K3AwqjuaXWLKlO--289" value="基于指标实时触发" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="960" width="117" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
